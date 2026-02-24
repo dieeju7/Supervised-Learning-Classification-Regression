@@ -236,7 +236,7 @@ After retraining with optimal alpha:
 
 ```
 .
-├── ThuVu_DAKD_2025_exercise_2.ipynb
+├── Supervised-Learning-Classification-Regression.ipynb
 ├── ex2_cardio_data.csv
 ├── prostate_data.csv
 └── README.md
@@ -261,7 +261,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 3. Open notebook:
 
 ```bash
-jupyter notebook ThuVu_DAKD_2025_exercise_2.ipynb
+jupyter notebook Supervised-Learning-Classification-Regression.ipynb
 ```
 
 ---
