@@ -236,10 +236,10 @@ After retraining with optimal alpha:
 
 ```
 .
+├── README.md
 ├── Supervised-Learning-Classification-Regression.ipynb
 ├── ex2_cardio_data.csv
-├── prostate_data.csv
-└── README.md
+└── prostate_data.csv
 ```
 
 ---
