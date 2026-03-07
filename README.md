@@ -5,6 +5,30 @@ This project explores **Supervised Machine Learning** through:
 -  **Classification** using k-Nearest Neighbors (k-NN)
 -  **Regression** using Ridge Regression
 
+
+# Technologies Used
+
+- Python 3
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+---
+# Key Learning Outcomes
+
+- Understanding k-NN classification
+- Handling class imbalance
+- Importance of feature scaling
+- Bias–variance tradeoff
+- Leave-One-Out Cross-Validation
+- Ridge regression and regularization
+- Hyperparameter tuning with K-Fold CV
+- Model interpretation through coefficients
+
+---
+
 Two real-world datasets are used:
 
 1. **Cardiovascular Disease (CVD) Dataset** - Binary Classification  
@@ -17,6 +41,15 @@ The notebook demonstrates the complete ML workflow:
 ---
 
 #  Part 1: Classification – Cardiovascular Disease Prediction
+
+## Methodology
+
+### 1️ Train-Test Split
+- 80% training
+- 20% testing
+- Stratified sampling
+- `random_state = 2025`
+---
 
 ## Objective
 
@@ -39,14 +72,6 @@ Predict the presence of cardiovascular disease (`cardio`) using patient health i
 - gluc
 
 ---
-
-## Methodology
-
-### 1️ Train-Test Split
-- 80% training
-- 20% testing
-- Stratified sampling
-- `random_state = 2025`
 
 ### 2️ Feature Standardization
 Standardization was applied to numerical features using `StandardScaler`.
@@ -221,17 +246,6 @@ After retraining with optimal alpha:
 
 ---
 
-# Technologies Used
-
-- Python 3
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-
----
-
 # Project Structure
 
 ```
@@ -266,18 +280,6 @@ jupyter notebook Supervised-Learning-Classification-Regression.ipynb
 
 ---
 
-# Key Learning Outcomes
-
-- Understanding k-NN classification
-- Handling class imbalance
-- Importance of feature scaling
-- Bias–variance tradeoff
-- Leave-One-Out Cross-Validation
-- Ridge regression and regularization
-- Hyperparameter tuning with K-Fold CV
-- Model interpretation through coefficients
-
----
 
 # Conclusion
 
